@@ -12,16 +12,13 @@ class Persona(Base):
     nombre = Column(String) 
     edad = Column(Integer) 
  
- 
+#DonJose120 estuvo Aquiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiiii
 # Crear la tabla si no existe 
 Base.metadata.create_all(engine) 
  
 # --- Función básica de "Text-to-SQL" --- 
 def interpretar_texto(texto):
-""" Interpreta una instrucción en texto simple y devuelve una acción SQL. 
-    Ejemplo: 
-    'agrega persona Juan 25' 
-    'muestra todas las personas'""" 
+
 palabras = texto.lower().split() 
  
 if palabras[0]=="agrega"and palabras[1]=="persona": 
