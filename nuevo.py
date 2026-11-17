@@ -8,6 +8,11 @@ session=Session()
 # --- Definición del modelo --- 
 #Yo soy cardenaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
 #y me voy
+#
+#
+#
+#
+#yoooooooooooooooooooooooooooooo
 class Persona(Base):
     __tablename__ ="personas" 
     id = Column(Integer,primary_key=True) 
