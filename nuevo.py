@@ -35,7 +35,15 @@ if palabras[0]=="agrega"and palabras[1]=="persona":
     session.add(nueva) 
     session.commit() 
     return f"Persona '{nombre}' agregada con edad {edad}" 
- 
+
+
+#  Cardenas Estuvo Aca!
+# H
+# O
+# L
+# A
+
+
 elif texto =="muestra todas las personas": 
         personas =session.query(Persona).all() 
         if personas: 
