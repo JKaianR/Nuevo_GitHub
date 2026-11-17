@@ -6,6 +6,8 @@ engine=create_engine("sqlite:///personas.db",echo=True)
 Session=sessionmaker(bind=engine) 
 session=Session() 
 # --- Definición del modelo --- 
+#Yo soy cardenaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa
+#y me voy
 class Persona(Base):
     __tablename__ ="personas" 
     id = Column(Integer,primary_key=True) 
